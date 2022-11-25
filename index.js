@@ -3,6 +3,7 @@ const mongoose = require("mongoose");
 const { Poru } = require("poru");
 const autoConnect = require("./Models/247")
 const ms = require("ms")
+require("dotenv").config()
 const client = new discord.Client({
   messageCacheLifetime: 60,
   fetchAllMembers: false,
@@ -19,7 +20,7 @@ const client = new discord.Client({
 });
 module.exports = client;
 client.user
-client.login("OTI3MDkyMTEzMzE1ODY4NzEz.G3Trhz.u1UTNY0kqXfL-tUglAHP_f273pZaVXgr3nl1Pk").catch(e => console.log("No token provided"))
+client.login(process.env.TOKEN).catch(e => console.log("No token provided"))
 mongoose.connect("mongodb+srv://KryptonOp:iam_krypton@musicdb.oxulu3n.mongodb.net/test").then(() => {
   console.log(`Connected to Database (MongoDB)`)
 })
