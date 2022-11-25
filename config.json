@@ -1,0 +1,15 @@
+{
+  "prefix":"+",
+  "mongoDBURL": "mongodb+srv://KryptonOp:iam_krypton@musicdb.oxulu3n.mongodb.net/test",
+  "color": "#ff0000",
+  "owner":["788745942777462794"],
+  "nodes":[
+    {
+     "host": "lava1.cruzstudio.tech",
+"port": 80,
+"password": "cruzstudio.tech",
+"secure": false,
+      "name": "Milky Music's Private node"
+    }
+  ]
+}

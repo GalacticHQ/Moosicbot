@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "@top-gg/sdk": "^3.1.3",
+    "ascii-table": "^0.0.9",
+    "axios": "^0.27.2",
+    "cpu-stat": "^2.0.1",
+    "discord-hybrid-sharding": "^1.6.2",
+    "discord.js": "^13.8.1",
+    "mongoose": "^6.4.0",
+    "ms": "^2.1.3",
+    "os": "^0.1.2",
+    "poru": "^2.0.0",
+    "voucher-code-generator": "^1.3.0"
+  }
+}
